@@ -3,9 +3,32 @@ document.addEventListener('mousemove', function(event) {
 
     // Array de GIFs com os caminhos que você forneceu
     const gifs = [
-        'C:\\Users\\carlo\\Desktop\\cyberfloresta site\\Agave.gif',
-        'C:\\Users\\carlo\\Desktop\\cyberfloresta site\\Big_Fern.gif',
-        'C:\\Users\\carlo\\Desktop\\cyberfloresta site\\Blackened_Flower.gif'
+        'images/Agave.gif',
+        'images/Big_Fern.gif',
+        'images/Bitter-Smack_Leaf.gif',
+        'images/Blackened_Flower.gif',
+        'images/Bitter-Smack_Leaf.gif',
+        'images/Bog_Fingers_Plant.gif',
+        'images/Chill_Nettle.gif',
+        'images/Ferns.gif',
+        'images/Ficus_Benjamina.gif',
+        'images/Jungle_Umbrella_Plant_(Large).gif',
+        'images/Kelp.gif',
+        'images/Laminaria.gif',
+        'images/Large_Coral.gif',
+        'images/Mire_Sprout.gif',
+        'images/Monkey_Tail.gif',
+        'images/Mud_Whip.gif',
+        'images/Pillar_Growth.gif',
+        'images/Pillar_Vine.gif',
+        'images/Putrid_Plant.gif',
+        'images/Sequoia_Trunk.gif',
+        'images/Shadow_Plant.gif',
+        'images/Sludge_Fern.gif',
+        'images/Small_Fern.gif',
+        'images/Swamp_Tentacles.gif',
+        'images/Tower_Fern.gif'
+    
     ];
     let gifIndex = Math.floor(Math.random() * gifs.length); // Seleciona um GIF aleatório
 
